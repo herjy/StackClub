@@ -1,0 +1,9 @@
+[NbConvertApp] Converting notebook Footprints.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+sourceDetection INFO: Detected 8703 positive peaks in 7270 footprints and 0 negative peaks in 0 footprints to 10 sigma
+sourceDetection INFO: Resubtracting the background after object detection
+[NbConvertApp] Writing 3859767 bytes to Footprints.nbconvert.ipynb

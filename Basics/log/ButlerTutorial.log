@@ -1,0 +1,9 @@
+[NbConvertApp] Converting notebook ButlerTutorial.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+HscMapper WARN: Unable to find calib root directory
+CameraMapper INFO: Loading exposure registry from /project/shared/data/DATA_ci_hsc/registry.sqlite3
+HscMapper WARN: Unable to find calib root directory
+HscMapper WARN: Unable to find calib root directory
+HscMapper WARN: Unable to find calib root directory
+HscMapper WARN: Unable to find calib root directory
+[NbConvertApp] Writing 96634 bytes to ButlerTutorial.nbconvert.ipynb

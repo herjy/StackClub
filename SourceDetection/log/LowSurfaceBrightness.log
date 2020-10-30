@@ -1,0 +1,34 @@
+[NbConvertApp] Converting notebook LowSurfaceBrightness.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+characterizeImage WARN: Source catalog detected and measured with placeholder or default PSF
+characterizeImage.repair INFO: Identified 68 cosmic rays.
+characterizeImage.detection INFO: Detected 1270 positive peaks in 302 footprints and 0 negative peaks in 0 footprints to 50 sigma
+characterizeImage.detection INFO: Resubtracting the background after object detection
+characterizeImage.measurement INFO: Measuring 302 sources (302 parents, 0 children) 
+characterizeImage.measurePsf INFO: Measuring PSF
+characterizeImage.measurePsf INFO: PSF star selector found 91 candidates
+characterizeImage.measurePsf.reserve INFO: Reserved 0/91 sources
+characterizeImage.measurePsf INFO: Sending 91 candidates to PSF determiner
+characterizeImage.measurePsf INFO: PSF determination using 54/91 stars.
+characterizeImage INFO: iter 1; PSF sigma=1.06, dimensions=(25, 25); median background=0.38
+characterizeImage.repair INFO: Identified 57 cosmic rays.
+characterizeImage.measurement INFO: Measuring 302 sources (302 parents, 0 children) 
+characterizeImage.measureApCorr INFO: Measuring aperture corrections for 2 flux fields
+characterizeImage.measureApCorr INFO: Aperture correction for base_GaussianFlux: RMS 0.021943 from 50
+characterizeImage.measureApCorr INFO: Aperture correction for base_PsfFlux: RMS 0.019876 from 50
+characterizeImage.applyApCorr INFO: Applying aperture corrections to 2 instFlux fields
+sourceDetection INFO: Detected 1289 positive peaks in 1050 footprints and 2 negative peaks in 2 footprints to 10 sigma
+sourceDetection INFO: Resubtracting the background after object detection
+sourceDeblend INFO: Deblending 1050 sources
+sourceDeblend INFO: Deblended: of 1050 sources, 91 were deblended, creating 330 children, total 1380 sources
+measurement INFO: Measuring 1380 sources (1050 parents, 330 children) 
+sourceDetection INFO: Detected 45 positive peaks in 13 footprints and 4 negative peaks in 2 footprints to 10 sigma
+sourceDetection INFO: Resubtracting the background after object detection
+sourceDeblend INFO: Deblending 13 sources
+sourceDeblend INFO: Deblended: of 13 sources, 5 were deblended, creating 37 children, total 50 sources
+measurement INFO: Measuring 50 sources (13 parents, 37 children) 
+[NbConvertApp] Writing 2645896 bytes to LowSurfaceBrightness.nbconvert.ipynb

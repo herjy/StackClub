@@ -1,0 +1,35 @@
+[NbConvertApp] Converting notebook lsst_stack_deblender.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+HscMapper WARN: Unable to find calib root directory
+sourceDetection INFO: Detected 29 positive peaks in 20 footprints and 0 negative peaks in 0 footprints to 5 sigma
+sourceDetection.background WARN: Too few points in grid to constrain fit: min(nx, ny) < approxOrder) [min(2, 2) < 6]
+sourceDetection.background WARN: Reducing approxOrder to 1
+sourceDetection INFO: Resubtracting the background after object detection
+scarletDeblend INFO: Deblending 20 sources in 5 exposure bands
+meas.deblender.deblend INFO: id: 1
+meas.deblender.deblend INFO: id: 2
+meas.deblender.deblend INFO: id: 3
+meas.deblender.deblend INFO: id: 4
+meas.deblender.deblend INFO: id: 5
+meas.deblender.deblend INFO: id: 6
+meas.deblender.deblend INFO: id: 7
+meas.deblender.deblend INFO: id: 8
+meas.deblender.deblend INFO: id: 9
+meas.deblender.deblend INFO: id: 10
+meas.deblender.deblend INFO: id: 11
+meas.deblender.deblend INFO: id: 12
+meas.deblender.deblend INFO: id: 13
+meas.deblender.deblend INFO: id: 14
+meas.deblender.deblend INFO: id: 15
+meas.deblender.deblend INFO: id: 16
+meas.deblender.deblend INFO: id: 17
+meas.deblender.deblend INFO: id: 18
+meas.deblender.deblend INFO: id: 19
+meas.deblender.deblend INFO: id: 20
+scarletDeblend INFO: Deblended: of 20 sources, 3 were deblended, creating 12 children, total 32 sources
+measurement INFO: Measuring 32 sources (20 parents, 12 children) 
+measurement INFO: Measuring 32 sources (20 parents, 12 children) 
+[NbConvertApp] Writing 1863989 bytes to lsst_stack_deblender.nbconvert.ipynb
